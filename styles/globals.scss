@@ -1,0 +1,42 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--primary);
+}
+
+:root {
+  --gray-500: #fbfbfb;
+  --blue-600: #8f9db3;
+  --blue-800: #ffffff;
+  --primary: rgb(14, 18, 27);
+  --secondary: rgb(7, 11, 19);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+
+  &.linkedin {
+    background-image: url("/images/inIcon.svg");
+  }
+  &.instagram {
+    background-image: url("/images/instagram.svg");
+  }
+}
